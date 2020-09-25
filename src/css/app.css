@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 * {
   margin: 0;
@@ -30,12 +31,15 @@ body {
 }
 
 .logo {
+  font-size: 2rem;
+  font-family: 'Secular One', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  color:  #202020;
+  text-shadow: 3px 3px 1px #6f80d2,
+               -3px -3px 1px #fe7be5;
   max-width: 50px;
   cursor: pointer;
-}
-
-.logo img {
-  width: 100%;
 }
 
 /* NAVIGATION BAR LINKS */
@@ -74,10 +78,8 @@ body {
 .header-links a {
   color: white;
   font-size: 1.2rem;
-  font-family: "Karla", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
   transition: 0.5s;
 }
 
