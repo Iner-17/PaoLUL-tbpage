@@ -87,6 +87,16 @@ body {
   padding: 20px 10px;
 }
 
+.fa-youtube {
+  color: #ff0800; 
+  font-size: 40px;
+}
+
+.fa-facebook {
+  color: #0055ff;
+  font-size: 40px;
+}
+
 /* MENU ICON */
 .menu-icon {
   cursor: pointer;
@@ -177,6 +187,18 @@ main a {
   .menu-icon {
     display: block;
   }
+
+  main h1 {
+    font-size: 4rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+
+  main a {
+    padding: 10px 20px;
+  }
 }
 
 @media screen and (max-width: 35.5em) {
@@ -190,5 +212,19 @@ main a {
     padding: 0.8rem 1.4rem;
     z-index: 1;
     display: block;
+  }
+}
+
+@media screen and (max-width: 25em) {
+  .fa-youtube {
+    font-size: 2rem;
+  }
+  
+  .fa-facebook {
+    font-size: 2rem;
+  }
+
+  .header-channels {
+    margin-left: 3em;
   }
 }
